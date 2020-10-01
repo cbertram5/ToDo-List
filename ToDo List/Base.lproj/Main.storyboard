@@ -108,6 +108,9 @@
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textFieldEditingChanged:" destination="34Y-wV-ZHF" eventType="editingChanged" id="GcO-ss-IKJ"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                         </tableViewCellContentView>
